@@ -1,0 +1,226 @@
+body {
+  font-weight: 300;
+}
+.header{
+  padding: 25px 0px 250px;
+}
+.header__menu{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  padding: 0px 100px;
+}
+.header__menu a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:black;
+  display: inline-block; 
+  line-height: 1;
+  }
+.header__menu a:after {
+  display: block;
+  content: ""; 
+  height: 2px; 
+  width: 0%; 
+  background-color: red; 
+  transition: width 0.4s ease-in-out; 
+  }
+.header__menu a:hover:after,
+.header__menu a:focus:after {
+  width: 100%;
+  }
+.header__content{
+  padding: 100px 0px 0px;
+}
+.header__content-1-text {
+  font-size: calc(4vw + 3vh);
+  line-height: 1em;
+}
+.header__content-2 {
+  height: calc(20vw + 17vh);
+  width: auto;
+}
+.ipsType_right {
+  text-align: right;
+}
+.ipsType_center {
+  text-align: center;
+}
+
+.ipsSpacer_bottom_double {
+  margin-bottom: 30px;
+}
+.ipsGrid {
+  display: inline-block;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ipsGrid::before, .ipsGrid::after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  box-sizing: border-box;
+}
+.ipsGrid > .ipsGrid_span5 {
+  width: 40.42553191489362%;
+}
+.ipsGrid > .ipsGrid_span7 {
+  width: 57.44680851063829%;
+}
+.ipsGrid > [class*="ipsGrid_span"] {
+  float: left;
+  margin-left: 2%;
+}
+.ipsGrid > [class*="ipsGrid_span"]:first-child {
+  margin-left: 0;
+}
+.feature {
+  display: flex;
+  align-items: center;
+}
+.card {
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+ 
+}
+.featured-image-container .card {
+  padding: 10px;
+  height: 0;
+  padding-bottom: calc(100% - 10px);
+}
+h2.heading_large {
+  font-size: 1.8em;
+}
+img {
+  max-width: 100%;
+}
+.header-section {
+  margin: 200px auto;
+}
+.gs_reveal {
+  opacity: 0; 
+  visibility: hidden;
+  will-change: transform, opacity;
+}
+
+main p{
+  font-size: 130%;
+}
+@media only screen
+  and (max-device-width: 992px) { 
+    body {
+      font-weight: 300;
+    }
+    .header{
+      padding: 25px 0px 250px;
+    }
+    .header__menu{
+      display: flex;
+      justify-content: space-between;
+      align-self: center;
+      padding: 0px 100px;
+    }
+    .header__menu a{
+      text-decoration: none;
+      text-transform: uppercase;
+      color:black;
+      display: inline-block; 
+      line-height: 1;
+      }
+    .header__menu a:after {
+      display: block;
+      content: ""; 
+      height: 2px; 
+      width: 0%; 
+      background-color: red; 
+      transition: width 0.4s ease-in-out; 
+      }
+    .header__menu a:hover:after,
+    .header__menu a:focus:after {
+      width: 100%;
+      }
+    .header__content{
+      padding: 100px 0px 0px;
+    }
+    
+    .ipsType_right {
+      text-align: right;
+    }
+    .ipsType_center {
+      text-align: center;
+    }
+    
+    .ipsSpacer_bottom_double {
+      margin-bottom: 30px;
+    }
+    .ipsGrid {
+      display: inline-block;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .ipsGrid::before, .ipsGrid::after {
+      display: table;
+      content: "";
+      line-height: 0;
+    }
+    .ipsGrid > [class*="ipsGrid_span"] {
+      display: block;
+      width: 100%;
+      min-height: 30px;
+      box-sizing: border-box;
+    }
+    .ipsGrid > .ipsGrid_span5 {
+      width: 40.42553191489362%;
+    }
+    .ipsGrid > .ipsGrid_span7 {
+      width: 57.44680851063829%;
+    }
+    .ipsGrid > [class*="ipsGrid_span"] {
+      float: left;
+      margin-left: 2%;
+    }
+    .ipsGrid > [class*="ipsGrid_span"]:first-child {
+      margin-left: 0;
+    }
+    .feature {
+      display: flex;
+      align-items: center;
+    }
+    .card {
+      border: 0;
+      border-radius: 0;
+      overflow: hidden;
+     
+    }
+    .featured-image-container .card {
+      padding: 10px;
+      height: 0;
+      padding-bottom: calc(100% - 10px);
+    }
+    h2.heading_large {
+      font-size: 1.8em;
+    }
+    img {
+      max-width: 100%;
+    }
+    .header-section {
+      margin: 200px auto;
+    }
+    .gs_reveal {
+      opacity: 0; 
+      visibility: hidden;
+      will-change: transform, opacity;
+    }
+    
+    main p{
+      font-size: 130%;
+    }
+}
